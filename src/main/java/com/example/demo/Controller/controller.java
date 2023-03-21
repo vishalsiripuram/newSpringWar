@@ -9,6 +9,6 @@ public class controller {
     
     @RequestMapping("/dev")
     public String hello(){
-        return "developer branch";
+        return "developer branches";
     }
 }
