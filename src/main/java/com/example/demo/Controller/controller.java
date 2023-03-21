@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class controller {
     
-    @RequestMapping("/dev")
+    @RequestMapping("/hello")
     public String hello(){
         return "developer branches webhook";
     }
