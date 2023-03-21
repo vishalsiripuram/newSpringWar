@@ -9,6 +9,6 @@ public class controller {
     
     @RequestMapping("/dev")
     public String hello(){
-        return "developer branches";
+        return "developer branches webhooks";
     }
 }
