@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class controller {
     
-    @RequestMapping("/hello")
+    @RequestMapping("/dev")
     public String hello(){
-        return "hello";
+        return "dev branch";
     }
 }
