@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Notification {
     
-    @RequestMapping("/notification")
+    @RequestMapping("/notifications")
     public String notification(){
         return "Notification added";
     }
