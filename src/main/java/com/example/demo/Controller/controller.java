@@ -9,6 +9,6 @@ public class controller {
     
     @RequestMapping("/hello")
     public String hello(){
-        return "updates pemding";
+        return "updates pending";
     }
 }
