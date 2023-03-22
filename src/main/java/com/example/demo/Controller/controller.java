@@ -9,6 +9,6 @@ public class controller {
     
     @RequestMapping("/hello")
     public String hello(){
-        return "new update available";
+        return "new update available.";
     }
 }
