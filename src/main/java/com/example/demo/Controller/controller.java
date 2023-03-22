@@ -9,6 +9,6 @@ public class controller {
     
     @RequestMapping("/hello")
     public String hello(){
-        return "production branch updated";
+        return "new update";
     }
 }
